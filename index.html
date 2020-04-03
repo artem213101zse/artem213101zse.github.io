@@ -1,42 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru"> 
-    <head>
-        <meta charset="utf-8"> 
-        <title>My site</title>
-        <style>
-            
-            a:visited {
-                color:white;
-                font-size:1px;
-            }
-            
-        </style>
-    </head>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Спойлер</title>
+    <style>
 
-    <body> 
-        <header>
-            <h1>Попробуй жмякни!!1</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://informatics.ru">Школа программистов</a>
-                    </li>
-                    <li>
-                        <a href="https://my.informatics.ru">EduApp</a>
-                    </li>
-                    <li>
-                        <a href="https://yandex.ru">Яндекс</a>
-                    </li>
-                    <li>
-                        <a href="https://google.com">Google</a>
-                    </li>
-                    <li>
-                        <a href="https://tproger.ru">Tproger</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main></main>
-        <footer></footer>
-    </body>
+        .spoiler {
+            width: 300px;
+            height: 65px;
+            padding: 5px 30px;
+            background-color: #27ae60;
+            color: #ecf0f1;
+            overflow: hidden;
+            transition: 1s;
+        }
+
+        .spoiler:hover {
+            transition: 1s;
+            height: 390px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="spoiler">
+        <h2>Удивительный факт!</h2>
+        <p>
+            У актиний рот может растягиваться настолько, что это морское животное вполне способно принимать в пищу добычу таких же размеров, как и они сами.
+        </p>
+        <img src="img/actinia.jpg">
+    </div>
+</body>
 </html>
