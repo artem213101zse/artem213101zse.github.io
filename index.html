@@ -2,33 +2,39 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Спойлер</title>
+    <meta name="viewport" content="width=device-width">
+    <title>My site</title>
     <style>
-
-        .spoiler {
-            width: 300px;
-            height: 65px;
-            padding: 5px 30px;
-            background-color: #27ae60;
-            color: #ecf0f1;
-            overflow: hidden;
-            transition: 1s;
+        body {
+            margin: 0;
         }
-
-        .spoiler:hover {
-            transition: 1s;
-            height: 390px;
+        .card {
+            width: calc(100% - 20px);
+            height: 300px;
+            background-color: blue;
+            margin: 10px;
         }
-
+        @media (min-width: 768px) {
+            .card {
+                width:300px;
+                background-color: mediumspringgreen;
+                display: inline-block;
+                
+            }
+        }
+        @media (min-width: 1366px) {
+            .card {
+                width: 250px;
+                background-color: red;
+            }
+        }
+        
     </style>
 </head>
 <body>
-    <div class="spoiler">
-        <h2>Удивительный факт!</h2>
-        <p>
-            У актиний рот может растягиваться настолько, что это морское животное вполне способно принимать в пищу добычу таких же размеров, как и они сами.
-        </p>
-        <img src="img/actinia.jpg">
-    </div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
 </body>
 </html>
