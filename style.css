@@ -1,0 +1,39 @@
+.ball {
+	display: inline-block;
+	width: 660px;
+    height: 420px;
+    background-color: greenyellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+	
+
+}
+a {
+	text-decoration: none;
+}
+.ans {
+	margin:20px;
+}
+.navig {
+	margin-top:30px;
+}
+.c {
+	padding: 10px;
+	margin: 5px;
+	background-color: aqua;
+	border-radius: 20%;
+	
+}
+.g {
+	background-color: greenyellow;
+	padding: 10px;
+	margin: 10px;
+}
+h4 {
+	margin-left: 15px;
+	text-decoration:underline;
+}
+
+body {
+    background-color: azure;
+}
