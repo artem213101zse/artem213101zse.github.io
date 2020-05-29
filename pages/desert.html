@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width"> 
+        <link rel="stylesheet" href="../style.css">
+        <title>Десерты</title>
+    </head>
+    <body>
+        <header id="head">
+            <h1>Рецепты</h1>
+            <nav>
+                <button id="main_btn" class="btn_menu">Меню</button>
+                <ul id="main_menu" class="base_menu">
+                    <li>
+                        <a href="#" class="navig">Десерты</a>
+                    </li>
+                    <li>
+                        <a href="vipesh.html" class="navig">Выпечка</a>
+                    </li>
+                    <li>
+                        <a href="drink.html" class="navig">Напитки</a>
+                    </li>
+                    <li>
+                        <a href="../index.html" class="navig">На главную</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Как приготовить Рулет "Баунти"</h2>
+            <span class="container">
+                <article>
+                    <a href=""><h3>Десерты</h3></a>
+                    <img class="pr" src="static/desert.jpg">
+                    <p>В широком смысле слова, десерт - это сладкое блюдо, которое подают в конце еды. Поэтому к десертам относятся большинство различных сладостей. Но в узком смысле, это сладости, которые трудно точно отнести к их наиболее известным группам. Хотя все это очень условно. Почитайте рецепты десертов, посмотрите на фото десертов - ведь главное, чтобы десерт был вкусным, а уж как мы его назовем: пирожным, тортом или десертом - это уже не так важно.</p>
+                </article>
+            </span>
+        </main>
+        <hr>
+        <footer>
+            <a href="#" title="Вернуться наверх" class="up"><img src="static/up.svg"></a>
+            <cite>© Артём Кононов</cite>
+            <a href="../index.html">На главную</a>
+        </footer>
+        <script>
+            "use strict"
+            main_btn.addEventListener("click",fOpen)
+            function fOpen() {
+                main_menu.classList.toggle("menu_open")
+            }
+        </script>
+    </body>
+</html>
